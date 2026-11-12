@@ -1,0 +1,18 @@
+# regenerable outputs (simulations ~6 GB, frames ~3 GB, videos ~2 GB)
+cache/
+render/
+out/
+
+# downloaded / generated assets (engine/fetch_fonts.py, vehicle/decals.py)
+assets/fonts/
+assets/vehicle/
+
+# Blender saves
+*.blend
+*.blend1
+
+# local reference images (not ours to redistribute)
+computer/*.jpg
+
+__pycache__/
+*.pyc
